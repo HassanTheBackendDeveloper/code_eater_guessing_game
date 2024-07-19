@@ -45,8 +45,6 @@ fn main() {
 
         let guess = guess.trim();
 
-        // println!("Your guess is '{}'", guess);
-
         if guess == secret_fruit {
             println!("{}", "Correct Guess! You are winner!".green().bold());
             break;
