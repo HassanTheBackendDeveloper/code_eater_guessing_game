@@ -32,8 +32,6 @@ fn main() {
 
     let secret_fruit = fruits[rand::thread_rng().gen_range(0..fruits.len())];
 
-    println!("Secret Fruit is: {}", secret_fruit);
-
     loop {
         println!("{}", "Please enter your guess fruit.".yellow());
 
